@@ -1,0 +1,5 @@
+#!/bin/bash
+# A script that adds execute permission to the owner and group owner,
+# and read permission to other users for the file hello.
+
+chmod u+x,g+x,o+r hello
